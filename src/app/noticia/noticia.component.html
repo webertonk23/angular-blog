@@ -1,0 +1,27 @@
+<div class="card">
+    <div class="card-top">
+        <a [routerLink]="['/editar', id]" class="btn"><i class="fa fa-edit"></i></a>
+        <button class="btn" (click)="remover(id)"><i class="fa fa-trash"></i></button>
+        
+        <small class="autor">Autor: {{ new!.autor }}</small>
+
+        <p class="tags">
+            <small *ngFor="let tag of new!.tags">#{{ tag }}</small>
+        </p>
+
+    </div>
+
+    <div class="card-body">
+        <div class="card-image">
+            <img src="{{ new!.image_url }}" alt="">
+        </div>
+
+        <div class="card-content">
+            <h1 class="title">{{ new!.title }}</h1>
+
+            <p class="text">
+                {{ new!.resume }}
+            </p>
+        </div>
+    </div>
+</div>

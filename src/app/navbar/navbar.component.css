@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav h1 {
+    text-transform: uppercase;
+}
+
+.soccial_media{
+    padding: 15px;
+    border: .001rem solid #7f7f7f;;
+    background: #fff;
+    
+}
+
+.soccial_media a{
+    text-decoration: none;
+    padding: 5px;
+    color: #7f7f7f;
+}

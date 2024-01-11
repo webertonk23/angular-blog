@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    /* padding: 1rem; */
+    background-color: #fff;
+}
+
+.btn {
+    padding: 15px;
+    background: #fff;
+    color: #7f7f7f;
+    border: .001rem solid #7f7f7f;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success {
+    padding: 15px;
+    background: #499b54 !important;
+    color: #fff;
+    border: .001rem solid #7f7f7f;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+@media screen and (min-width: 992px) {
+    .conteiner {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}

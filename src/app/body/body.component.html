@@ -1,0 +1,10 @@
+<div class="card-body">
+    <app-card *ngFor="let new of news, let i = index" 
+      [autor]="new.autor"
+      [image_url]="new.image_url"
+      [resume]="new.resume.slice(0, 300)"
+      [title]="new.title"
+      [tags]="new.tags"
+      (click)="verNoticia(i)"
+    ></app-card>
+</div>

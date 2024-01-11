@@ -1,0 +1,64 @@
+.card {
+    padding: 0px 25px;
+    /* border: .01rem solid #7f7f7f; */
+    height: 100%;
+    -webkit-box-shadow: 10px 10px 14px -1px rgba(125, 116, 125, 0.69);
+    -moz-box-shadow: 10px 10px 14px -1px rgba(125, 116, 125, 0.69);
+    box-shadow: 10px 10px 14px -1px rgba(125, 116, 125, 0.69);
+    margin-right: 10px;
+    border-radius: 15px;
+
+}
+
+.card .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card .card-image img {
+    max-width: 100%;
+    height: 250px;
+}
+
+.card .title{
+    font-size: 1em;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-bottom: 0.1rem solid #000;
+    border-top: 0.1rem solid #000;
+}
+
+.card  .resume {
+    text-align: justify;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-bottom: 0.1rem solid #000;
+    border-top: 0.1rem solid #000;
+    font-size: .7em;
+}
+
+.card .autor {
+    color: #7f7f7f;
+    padding: 15px; 
+}
+
+.card .tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.card .tags small {
+    color: #000;
+    padding: 8px;
+    border-radius: 25px;
+    margin-left: 10px;
+    background-color: #7f7f7f;
+}

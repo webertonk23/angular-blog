@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-image">
+        <img src="{{ image_url }}" alt="">
+    </div>
+
+    <h1 class="title">{{ title }}</h1>
+
+    <p class="resume">
+        {{ resume }}
+    </p>
+
+    <small class="autor">{{ autor }}</small>
+
+    <p class="tags">
+        <small *ngFor="let tag of tags">#{{ tag }}</small>
+    </p>
+</div>

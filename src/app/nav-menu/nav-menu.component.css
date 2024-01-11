@@ -1,0 +1,21 @@
+.conteiner_menu {
+    padding: 0 15;
+    border-top: .01rem solid #7f7f7f;
+}
+
+.conteiner_menu ul {
+    display: flex;
+
+}
+
+.conteiner_menu ul li {
+    padding: 20px 15px;
+    list-style: none;
+    color: #7f7f7f !important;
+}
+
+.active {
+    border-top: 3px solid #000 !important;
+    padding: 17px 15px !important;
+    color: #000 !important;
+}
